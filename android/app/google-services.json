@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "56363785121",
+    "project_id": "saferoads-2026",
+    "storage_bucket": "saferoads-2026.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:56363785121:android:68e81384cb8399f7b149e0",
+        "android_client_info": {
+          "package_name": "com.spyder.saferoads"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCr_Wj8eZvg_IPfIEKNFyDAZ4r9-5hYTE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
