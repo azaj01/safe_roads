@@ -161,13 +161,13 @@ class _HomePageState extends State<HomePage> {
                                 decoration: BoxDecoration(
                                     borderRadius: BorderRadius.circular(53),
                                     color: Colors.white.withOpacity(.5)),
-                                child: Expanded(
-                                    child: AccidentWidget(
-                                  machineId: machineId!,
+                             //   child: Expanded(
+                                   // child: AccidentWidget(
+                                //  machineId: machineId!,
                                 )),
                               ),
-                            ),
-                          ),
+                         //   ),
+                        //  ),
                         ],
                       ),
                     )
