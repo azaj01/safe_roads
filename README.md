@@ -2,7 +2,7 @@
 
 Team Name :  pritamadhikari0001
 
-Name of the Team members:
+<h2>Name of the Team members:</h2>
 1. Pritam Adhikari (Team Lead) 
 College - Jadavpur University, Kolkata
 Email ID: pritamadhikari0001@gmail.com
