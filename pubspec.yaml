@@ -1,5 +1,5 @@
 name: safe_roads
-description: "A new Flutter project."
+description: "Safe Roads is a CCTV camera monitoring system to keep an eye on accidents in real time."
 publish_to: 'none'
 version: 1.0.0
 
@@ -30,13 +30,13 @@ dev_dependencies:
 
 flutter_icons:
   android: true
-  image_path: "assets/icons/icon.png"
+  image_path: "assets/icons/icon.jpeg"
   adaptive_icon_foreground: "assets/icons/icon_foreground.png"
-  adaptive_icon_background: "#f5756a"
+  adaptive_icon_background: "#dc1a22"
   web:
     generate: true
-    image_path: "assets/icons/icon.png"
-    background_color: "#f5756a"
+    image_path: "assets/icons/icon.jpeg"
+    background_color: "#dc1a22"
 
 
 flutter:

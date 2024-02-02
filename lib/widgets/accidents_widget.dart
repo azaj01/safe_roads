@@ -150,7 +150,7 @@ class _AccidentWidgetState extends State<AccidentWidget> {
                       textAlign: TextAlign.center,
                       style: TextStyle(
                           fontFamily: 'SouceSans3',
-                          fontSize: (w < 1000) ? w / 40 : w / 60)),
+                          fontSize: (w < 1000) ? w / 40 : w / 70)),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [
@@ -160,7 +160,7 @@ class _AccidentWidgetState extends State<AccidentWidget> {
                           "${index + 1}",
                           style: TextStyle(
                               fontFamily: 'SourceSans3',
-                              fontSize: (w < 1000) ? w / 30 : w / 60),
+                              fontSize: (w < 1000) ? w / 30 : w / 70),
                         ),
                       ),
                       Padding(
@@ -184,20 +184,20 @@ class _AccidentWidgetState extends State<AccidentWidget> {
                               "Date: ${widget.accidentList[index].date}",
                               style: TextStyle(
                                   fontFamily: 'SourceSans3',
-                                  fontSize: (w < 1000) ? w / 35 : w / 60),
+                                  fontSize: (w < 1000) ? w / 35 : w / 70),
                               textAlign: TextAlign.start,
                             ),
                             Text("Time: ${widget.accidentList[index].time}",
                                 textAlign: TextAlign.start,
                                 style: TextStyle(
                                     fontFamily: 'SourceSans3',
-                                    fontSize: (w < 1000) ? w / 35 : w / 60)),
+                                    fontSize: (w < 1000) ? w / 35 : w / 70)),
                             Text(
                                 "Vehicles Involved: \n• ${mapOfVehicles[widget.accidentList[index].vehiclesInvolved[0]]}\n• ${mapOfVehicles[widget.accidentList[index].vehiclesInvolved[1]]}",
                                 textAlign: TextAlign.start,
                                 style: TextStyle(
                                     fontFamily: 'SourceSans3',
-                                    fontSize: (w < 1000) ? w / 35 : w / 60)),
+                                    fontSize: (w < 1000) ? w / 35 : w / 70)),
                           ],
                         ),
                       ),
@@ -222,7 +222,7 @@ class _AccidentWidgetState extends State<AccidentWidget> {
                               decoration: BoxDecoration(
                                   color: Colors.green,
                                   borderRadius: BorderRadius.circular(20)),
-                              child: const Icon(Icons.download_outlined)),
+                              child: const Icon(Icons.download_outlined, color:Colors.white)),
                         ),
                       ),
                       Padding(
@@ -245,7 +245,7 @@ class _AccidentWidgetState extends State<AccidentWidget> {
                               decoration: BoxDecoration(
                                   color: RED_BUTTON,
                                   borderRadius: BorderRadius.circular(20)),
-                              child: const Icon(Icons.delete_outlined)),
+                              child: const Icon(Icons.delete_outlined, color:Colors.white)),
                         ),
                       ),
                     ],

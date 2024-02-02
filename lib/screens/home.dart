@@ -1,5 +1,3 @@
-import 'dart:math';
-
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
@@ -82,7 +80,8 @@ class _HomePageState extends State<HomePage> {
     "ACTIVE": Colors.green,
     "CAMERA_SOURCE_ERROR": Colors.red,
     "FETCHING": Colors.blue,
-    "MACHINE_ERROR": Colors.red
+    "MACHINE_ERROR": Colors.red,
+    "MACHINE_DISCONNECTED": Color.fromARGB(255, 199, 123, 228),
   };
   @override
   Widget build(BuildContext context) {
@@ -98,22 +97,32 @@ class _HomePageState extends State<HomePage> {
           ),
           actions: [
             ElevatedButton.icon(
-                onPressed: () {
-                  setState(() {
-                    start = !start;
-                  });
+                onPressed:
+                    (machine.status.toUpperCase() == 'MACHINE_DISCONNECTED')
+                        ? null
+                        : () {
+                            setState(() {
+                              start = !start;
+                            });
 
-                  FirebaseFirestore.instance
-                      .collection('machines')
-                      .doc(machineId)
-                      .update({'start': start});
-                },
+                            FirebaseFirestore.instance
+                                .collection('machines')
+                                .doc(machineId)
+                                .update({'start': start});
+                          },
                 icon: start
-                    ? (const Icon(
+                    ? (Icon(
                         Icons.stop,
-                        color: Colors.red,
+                        color: (machine.status.toUpperCase() ==
+                                'MACHINE_DISCONNECTED')
+                            ? Colors.grey
+                            : Colors.red,
                       ))
-                    : (const Icon(Icons.play_arrow, color: Colors.green)),
+                    : (Icon(Icons.play_arrow,
+                        color: (machine.status.toUpperCase() ==
+                                'MACHINE_DISCONNECTED')
+                            ? Colors.grey
+                            : Colors.green)),
                 label: (Text(start ? "STOP" : "START"))),
             SettingsPopupMenu(
               machineId: machineId ?? "",
@@ -167,7 +176,7 @@ class _HomePageState extends State<HomePage> {
                           child: Text(
                               "Machine Status : ${machine.status.toUpperCase()}",
                               style: const TextStyle(
-                                  fontFamily: 'Kreon', fontSize: 20))),
+                                  fontFamily: 'Kreon', fontSize: 15))),
                     ),
                   )
                 ],
