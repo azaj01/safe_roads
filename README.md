@@ -3,9 +3,11 @@
 Team Name :  pritamadhikari0001
 
 <h2>Name of the Team members:</h2>
-1. Pritam Adhikari (Team Lead) 
-College - Jadavpur University, Kolkata
-Email ID: pritamadhikari0001@gmail.com
+<ol>
+<li>Pritam Adhikari (Team Lead) 
+  College - Jadavpur University, Kolkata
+  Email ID: pritamadhikari0001@gmail.com 
+</li>
 
 2. Anindya Jana
 College - Jadavpur University, Kolkata
@@ -14,6 +16,9 @@ Email ID: anindyajana356@gmail.com
 3. Suman De
 College - Jadavpur University, Kolkata
 Email ID: sumande0414@gmail.com
+  
+</ol>
+ 
 
 <h2>Steps for compiling the flutter app from source</h2>
 <ol>
