@@ -3,7 +3,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:safe_roads/firebase_options.dart';
 import 'package:safe_roads/screens/auth.dart';
-import 'package:safe_roads/screens/home2.dart';
+import 'package:safe_roads/screens/home.dart';
 
 
 void main() async{
@@ -23,7 +23,7 @@ class MainApp extends StatelessWidget {
           stream: FirebaseAuth.instance.userChanges(),
           builder: (context, snapshot) {
             if (snapshot.hasData) {
-              return Home2Page();
+              return HomePage();
             }
             else{
               return AuthScreen();

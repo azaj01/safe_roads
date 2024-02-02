@@ -1,7 +1,7 @@
 name: safe_roads
 description: "A new Flutter project."
 publish_to: 'none'
-version: 0.1.0
+version: 1.0.0
 
 environment:
   sdk: '>=3.2.4 <4.0.0'
@@ -12,6 +12,9 @@ dependencies:
   firebase_auth: ^4.15.3
   fluttertoast: ^8.2.4
   file_saver: ^0.2.9
+  path_provider: ^2.1.2
+  flutter_file_dialog: ^3.0.2
+  http:
   flutter:
     sdk: flutter
 
@@ -23,12 +26,23 @@ dev_dependencies:
     sdk: flutter
   flutter_lints: ^2.0.0
   change_app_package_name: ^1.1.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_icons:
+  android: true
+  image_path: "assets/icons/icon.png"
+  adaptive_icon_foreground: "assets/icons/icon_foreground.png"
+  adaptive_icon_background: "#f5756a"
+  web:
+    generate: true
+    image_path: "assets/icons/icon.png"
+    background_color: "#f5756a"
 
 
 flutter:
   uses-material-design: true
   assets:
-    - assets/images/background_auth.jpg
+    - assets/images/background_auth.png
     - assets/images/background_home.jpg
 
   fonts:

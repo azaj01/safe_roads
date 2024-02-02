@@ -1,9 +1,8 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:firebase_auth/firebase_auth.dart';
+
 import 'package:flutter/material.dart';
 import 'package:safe_roads/constants/text_styles.dart';
 import 'package:safe_roads/model/machine_model.dart';
-import 'package:safe_roads/widgets/form_container_widget.dart';
+
 
 class StatusWidget extends StatefulWidget {
   const StatusWidget({super.key, required this.machine});
