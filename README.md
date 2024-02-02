@@ -43,11 +43,10 @@ Live Web App Link: https://saferoads-2026.web.app/
 
 <h1>How to run the app?</h1>
 <ul>
+  <li>Clone the project to your local machine</li>
   <li>The root directory is "safe_roads".</li>
-  <li>This directory contains the main flutter app and the Jupyter Notebook in <b>MultiFrameAccidentDetection.zip</b> file</li>
-  <li>This directory contains the flutter app and a <b>Zip File named: MultiFrameAccidentDetection.zip</b></li>
-  <li>Unzip this folder in any directory</li>
-  <li>Open and run the <b>Multi_frame_accident_detection.ipynb</b> file in Jupyter notebook and follow the instruction in it to run the script</li>
+  <li>This directory contains the main flutter app and the Jupyter Notebook in <b>MultiFrameAccidentDetection</b> folder</li>
+  <li>Open and run the <b>Multi_frame_accident_detection.ipynb</b> file in Jupyter notebook present in MultiFrameAccidentDetection</b> folder and follow the instruction in it to run the script</li>
   <li>Do note the machine id that is printed in the output after the run</li>
   <li>Now in the android app/web app</li>
   <li>Create an account in the app by giving the machine id you got earlier after running the script</li>
