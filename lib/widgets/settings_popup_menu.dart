@@ -16,6 +16,7 @@ class SettingsPopupMenu extends StatefulWidget {
 class _SettingsPopupMenuState extends State<SettingsPopupMenu> {
   final TextEditingController _machineIdController = TextEditingController();
   final TextEditingController _sourceIdController = TextEditingController();
+  
 
   @override
   void dispose() {

@@ -43,7 +43,7 @@ changePassword({required String oldPass, required String newPass}) async {
         .then((value) {
       FirebaseAuth.instance.currentUser!.updatePassword(newPass).then((value) {
         Fluttertoast.showToast(
-            msg: "Password Successfull Update. Login with new password");
+            msg: "Password Successfully Updated. Login with your new password");
         FirebaseAuth.instance.signOut();
       });
     });
