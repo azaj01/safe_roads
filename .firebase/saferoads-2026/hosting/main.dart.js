@@ -87645,7 +87645,7 @@ $0(){A.axQ(new A.aoF(this.a),this.b,t.z)},
 $S:0}
 A.aoF.prototype={
 $1(a){var s=null,r=this.a,q=t.F
-return A.auu(A.a([A.L6(A.kH(A.a([A.hC(r.d,"Old Password",s,s,s,s),B.bP,A.hC(r.e,"New Password",s,s,new A.aoC(),s),B.bP,A.hC(r.f,"Retype New Password",s,s,new A.aoD(r),s),B.bP,A.av3(!1,B.kf,B.n,s,s,s,s,s,new A.aoE(r,a),s,s)],q),B.aM,B.aT,B.b7),r.r)],q),B.Rk)},
+return A.auu(A.a([A.L6(A.kH(A.a([A.hC(r.d,"Old Password",s,!0,s,s),B.bP,A.hC(r.e,"New Password",s,!0,new A.aoC(),s),B.bP,A.hC(r.f,"Retype New Password",s,!0,new A.aoD(r),s),B.bP,A.av3(!1,B.kf,B.n,s,s,s,s,s,new A.aoE(r,a),s,s)],q),B.aM,B.aT,B.b7),r.r)],q),B.Rk)},
 $S:91}
 A.aoC.prototype={
 $1(a){if(a.length<6)return"Minimum length should be 6"},
