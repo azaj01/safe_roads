@@ -2,31 +2,6 @@
 
 Live Web App Link: https://saferoads-2026.web.app/
 
-<h3>Team Name :  pritamadhikari0001</h3>
-
-<h2>Name of the Team members:</h2>
-<ol>
-<li> Pritam Adhikari (Team Lead) (AI/ML Developer) </li>
-<ul>
-  <li>College - Jadavpur University, Kolkata</li>
-  <li>Email ID: pritamadhikari0001@gmail.com </li>
-</ul>
-</li>
-
-<li> Anindya Jana (AI/ML Developer) </li>
-<ul>
-  <li>College - Jadavpur University, Kolkata</li>
-  <li>Email ID: anindyajana356@gmail.com</li>
-</ul>
-</li>
-
-<li> Suman De (Full Stack Developer - Flutter and Firebase) </li>
-<ul>
-  <li>College - Jadavpur University, Kolkata</li>
-  <li>Email ID: sumande0414@gmail.com </li>
-</ul>
-</li> 
-</ol>
 
 <h2>Steps for compiling the flutter app from source</h2>
 <ol>
